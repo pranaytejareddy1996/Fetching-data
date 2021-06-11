@@ -1,6 +1,4 @@
 import Bloglist from './Bloglist'
-import ClickFunction from './clickFunction';
-
 import useFetch from './useFetch';
 
 const Home = () => {
