@@ -48,6 +48,7 @@ class Photos extends Component  {
         const images = imageUrlArray.map((url,index) => {
             return (
                 <img 
+                    alt = ""
                     className = 'singleImage'
                     src={url}
                     key={index}
