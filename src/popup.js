@@ -10,7 +10,7 @@ class Popup extends Component{
                     onClick={this.props.closePopup}>
                         X
                     </button>
-                    <img src={this.props.popImageUrl} />
+                    <img src={this.props.popImageUrl} alt = "" />
                 </div>
             </div>
         )
